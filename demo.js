@@ -9,4 +9,4 @@ console.warn("Trust everyone easily");
 console.warn("I can not say no if anyone asks for help");
 console.warn("i know basic excel trying to improve it");
 console.log(30+50);
-console.log("49*479");
+console.log(49*479);
