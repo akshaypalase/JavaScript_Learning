@@ -10,4 +10,4 @@ var myLove = "I love only JS";
 console.log(myLove);
 //Third Question
 var firstName="Akshay",lastName="Palase",address="Mira-Bhayander dist=thane",pin_code="401107",gender="Male",is_married="No";
-console.log(firstName,lastName,address,pin_code,gender,is_married);
+console.log("First Name:-"+firstName,"Last Name:-"+lastName,"Address:-"+address,"Pincode:-"+pin_code,"Gender:-"+gender,"Married:-"+is_married);
