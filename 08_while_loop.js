@@ -11,8 +11,19 @@ while(num>=40){
       num=num-1;
 }
 console.log(`===================Find first 15 odd numbers===================`);
-var odd=1;
-while(odd>=30){
-      console.log(`number:-${odd}`);
-      odd=odd+2;
+
+for(var a=1;a<=30;a++ ){
+      console.log(`odd nmuber is:${a}`);
+      a=a+1;
+
+} 
+console.log(`===================Find first 10 even numbers===================`);
+for(var a=0;a<=20;a++ ){
+      console.log(`even nmuber is:${a}`);
+      a=a+1;
+}
+console.log(`===================print table of 5===================`)
+for(var num=1;num<=10;num*num*1){
+      console.log(num*2);
+     
 }
