@@ -23,7 +23,23 @@ for(var a=0;a<=20;a++ ){
       a=a+1;
 }
 console.log(`===================print table of 5===================`)
-for(var num=1;num<=10;num*num*1){
-      console.log(num*2);
+for(var num=5;num<=50;num=num+5){
+      console.log(`table:${num}`);
      
+}
+console.log(`===================print table of 10===================`)
+for(var num=10;num<=100;num=num+10){
+      console.log(`table:${num}`);
+     
+}
+console.log(`===================using while loop reverse number from 100 to 10===================`)
+var num=100;
+while (num>=10) { 
+ console.log(`table:${num}`);
+      num=num-10;
+}
+console.log(`===================using for loop reverse number from 100 to 10===================`)
+for (let index = 100; index>=10; index=index-10) {
+      console.log(`reverse number:${index}`);
+      
 }
