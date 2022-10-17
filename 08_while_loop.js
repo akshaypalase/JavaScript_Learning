@@ -43,3 +43,4 @@ for (let index = 100; index>=10; index=index-10) {
       console.log(`reverse number:${index}`);
       
 }
+
