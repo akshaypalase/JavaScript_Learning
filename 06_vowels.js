@@ -8,3 +8,5 @@ for (let index = 0; index < givenString.length; index++) {
         console.log(char);
     }
 }
+
+
