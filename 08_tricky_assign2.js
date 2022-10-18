@@ -1,10 +1,9 @@
-console.log("================Assignment No-0B=======================");
+console.log("=================Assignment No-0B=========================");
 function reverseString(str) {
   var reverse = "";
   var stringGiven = str;
   var totalString = stringGiven.length;
   console.log(`Given String is:- "${str}"`);
-  
   for (let index = totalString; index >= 0; index--) {
     var charAt = stringGiven.charAt(index);
     if (charAt != " ") {

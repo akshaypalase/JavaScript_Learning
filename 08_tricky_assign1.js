@@ -1,4 +1,4 @@
-console.log("==========Assignment No-0A==========");
+console.log("==========Assignment No-0A========================");
 var string=" I am very good IT Developer";
 var lowercasevowels="aeiou";
 var uppercasevowels="AEIOU";
