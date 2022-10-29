@@ -42,7 +42,7 @@ console.log(array_numbers);
 
 
 console.log("============ splice() ===========");
-let array_numbers = [1, 3, 7, 8, 9, 3];
+//let array_numbers = [1, 3, 7, 8, 9, 3];
 console.log(array_numbers);
  // let splicedElements =  array_numbers.splice(4); // It remove elements from 4th index to the end
  // let splicedElements =  array_numbers.splice(2, 3) // It removes the total  element starting from index 2
