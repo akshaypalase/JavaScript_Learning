@@ -1,4 +1,4 @@
-console.log("============Array Assignment-01============");
+console.log("====================Array Assignment-01===================");
 console.log("--------------------------Q.1--------------------------");
 const fruits_seasonal=["Banana","Orange","Apple","Mango","Water Melon"];
 console.log("Given array:-",fruits_seasonal);
@@ -24,10 +24,10 @@ console.log('Adding "Dragon fruit" before "water melon"',fruits_seasonal);
 console.log("--------------------------Q.6--------------------------");
 console.log("Given array:-",fruits_seasonal);
 fruits_seasonal.splice(2,1,"Kiwi");
-console.log(fruits_seasonal);
+console.log(`Replace "Orange" with "Kiwi"`,fruits_seasonal);
 console.log("--------------------------Q.7--------------------------");
-console.log("Given array:-",fruits_seasonal);
-
-let c=fruits_seasonal.splice(1,4);
-console.log(c)
-
+let z = fruits_seasonal.slice(1, 4);
+console.log(`Elements Starting from index 1 to 4`, z);
+console.log("--------------------------Q.8--------------------------");
+console.log(`Given Array->`, fruits_seasonal);
+console.log(`Last 3 Element->`, fruits_seasonal.splice(fruits_seasonal.length-3));
