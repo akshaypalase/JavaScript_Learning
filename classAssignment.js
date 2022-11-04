@@ -15,8 +15,44 @@ const emp_monika=new Employee(77, "Monika", "IT", 40000, "Wipro");
 const emp_viny=new Employee(88, "Vinyak", "IT", 75000, "TCS");
 const emp_mahi=new Employee(99, "Mahesh", "HR", 85000, "Infy");
 let array_employess= [emp_anil,emp_radha,emp_rishi,emp_sonali,emp_viny,emp_mahi];
-console.log(array_employess);
 
-for (const emp of object) {
+console.log("==================================Q.1========================================");
+
+for (const element of array_employess) {
+    if (element.emp_company ==="TCS"){
+        console.log(`Employee Name:-"${element.emp_name}"and Company Name:-"${element.emp_company}"`);
+    }
+}
+console.log("==================================Q.2========================================");
+for (const element of array_employess) {
+    if (element.emp_dept==="Finance") {
+        console.log(`Employee Name:-"${element.emp_name}" and Department is:-"${element.emp_dept}"`);
+    }
     
+}
+console.log("==================================Q.3========================================");
+for (const element of array_employess) {
+    if(element.emp_name.startsWith("R",0))
+    {
+        console.log("Employee Details:-",element);
+    }
+    }
+    console.log("==================================Q.4========================================");
+    for (const element of array_employess) {
+        if (element.emp_salary>70000) {
+            console.log(`Employee Name:-"${element.emp_name}",Company:-"${element.emp_company}",Salary:-"${element.emp_salary}"`);
+            
+        }
+    }
+    console.log("==================================Q.5========================================");
+for (const element of array_employess) {
+    if (element.emp_salary >= 50000 && element.emp_dept === "IT") {
+        console.log("Employee Details:-", element);
+    }
+}
+console.log("==================================Q.6===========================================");
+for (const element of array_employess) {
+    if (element.emp_company === "Infy") {
+        console.log("Employee Details:-", element);
+    }
 }

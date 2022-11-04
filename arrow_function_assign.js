@@ -14,10 +14,10 @@ console.log(`==================Q.3=============================================`
 result(10,4);
 console.log(`==================Q.4=============================================`);
 let add =(A1,A2,A3,A4,A5)=>{
-console.log(`Addition of passed values is:-${A1+A2+A3+A4+A5}`);
+return A1+A2+A3+A4+A5
 
 }
-add(100,100,200,349,756);
-add("I am","learning","ES6","Features","in depth");
+console.log(`"Sum of 5 numbers is:-"${add(100,100,200,349,756)}`);
+console.log(`"concatenation:-"${add("I am","learning","ES6","Features","in depth")}`);
 
 
