@@ -1,8 +1,3 @@
-
-function sachin(money){
-   console.log(money);
-   console.log("hi ");
-   console.log("how are you");
-
-}
-sachin(500)
+var a="good morning";
+console.log(a.charAt(6));
+console.log(a.indexOf('o'));
